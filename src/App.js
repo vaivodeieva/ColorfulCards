@@ -1,10 +1,12 @@
 import './App.css';
 import ColorfulCards from './components/ColorfulCards';
+import MyContactsTitle from './components/MyContactsTitle';
 
 function App() {
   return (
     <div >
-    
+     
+      <MyContactsTitle />
       <ColorfulCards
       name="Beyonce"
       img="https://blackhistorywall.files.wordpress.com/2010/02/picture-device-independent-bitmap-119.jpg"
